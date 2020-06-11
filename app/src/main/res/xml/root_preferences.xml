@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="@string/setting">
+        <EditTextPreference
+            app:key="server"
+            app:icon="@drawable/ic_baseline_cloud_24"
+            app:title="@string/server"
+            app:defaultValue="http://167.172.70.248:8000"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/image">
+        <EditTextPreference
+            app:key="image_size"
+            app:icon="@drawable/ic_baseline_photo_size_select_large_24"
+            app:title="@string/compress_size"
+            app:defaultValue="1920"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

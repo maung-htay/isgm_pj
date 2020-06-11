@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="buttonLoginBackgroundColor">#1514A0</color>
+    <color name="buttonLoginTextColor">#ffffff</color>
+    <color name="card">#58668b</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="dark">#000000</color>
+    <color name="green1">#2E7D32</color>
+    <color name="green2">#1B5E20</color>
+    <color name="green3">#388E3C</color>
+    <color name="grey100">#F5F5F5</color>
+    <color name="grey300">#E0E0E0</color>
+    <color name="grey500">#9E9E9E</color>
+    <color name="listSelector">#add8e6</color>
+    <color name="loginBackgroundColor">#7600FF</color>
+    <color name="ptc1">#1565C0</color>
+    <color name="ptc2">#0D47A1</color>
+    <color name="ptc3">#2962FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow1">#FFFF00</color>
+    <color name="yellow2">#FFD600</color>
+    <color name="yellow3">#FFEA00</color>
+</resources>

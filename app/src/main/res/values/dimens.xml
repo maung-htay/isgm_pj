@@ -1,0 +1,72 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="zero_point_five">0.5dp</dimen>
+    <dimen name="two">2dp</dimen>
+    <dimen name="five">5dp</dimen>
+    <dimen name="eight">8dp</dimen>
+    <dimen name="ten">10dp</dimen>
+    <dimen name="eleven1">11sp</dimen>
+    <dimen name="twelve1">12sp</dimen>
+    <dimen name="fourteen1">14sp</dimen>
+    <dimen name="fifteen">15dp</dimen>
+    <dimen name="sixteen1">16sp</dimen>
+    <dimen name="eighteen1">18sp</dimen>
+    <dimen name="twenty">20dp</dimen>
+    <dimen name="twenty1">20sp</dimen>
+    <dimen name="twenty_five">25dp</dimen>
+    <dimen name="twenty_five1">25sp</dimen>
+    <dimen name="thirty">30dp</dimen>
+    <dimen name="thirty1">30sp</dimen>
+    <dimen name="forty">40dp</dimen>
+    <dimen name="forty1">40sp</dimen>
+    <dimen name="forty_eight">48dp</dimen>
+    <dimen name="forty_eight1">48sp</dimen>
+    <dimen name="fifty">50dp</dimen>
+    <dimen name="sixty">60dp</dimen>
+    <dimen name="ninety">90dp</dimen>
+    <dimen name="one_point_three" tools:ignore="InOrMmUsage">1.3in</dimen>
+    <dimen name="three" tools:ignore="InOrMmUsage">3in</dimen>
+    <dimen name="twenty_eight">28dp</dimen>
+    <dimen name="thirty_four">34dp</dimen>
+    <dimen name="one_six_zero">160dp</dimen>
+    <dimen name="icon_top_margin">24dp</dimen>
+    <dimen name="icon_bottom_margin">24dp</dimen>
+    <dimen name="title_bottom_margin">16dp</dimen>
+    <dimen name="field_width_standard">160dp</dimen>
+    <dimen name="button_horizontal_margin">8dp</dimen>
+
+    <dimen name="list_item_bottom_spacing">4dp</dimen>
+    <dimen name="list_item_right_spacing">8dp</dimen>
+
+    <!-- Generic with ratio -->
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_card_medium">6dp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
+    <dimen name="margin_medium_2">16dp</dimen>
+    <dimen name="margin_card_medium_2">12dp</dimen>
+    <dimen name="margin_medium_3">20dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_xlarge">32dp</dimen>
+    <dimen name="margin_xxlarge">48dp</dimen>
+
+    <dimen name="margin_small_n">-4dp</dimen>
+    <dimen name="margin_card_medium_n">-6dp</dimen>
+    <dimen name="margin_medium_n">-8dp</dimen>
+    <dimen name="margin_card_medium_2_n">-12dp</dimen>
+    <dimen name="margin_medium_2_n">-16dp</dimen>
+    <dimen name="margin_medium_3_n">-18dp</dimen>
+    <dimen name="margin_large_n">-24dp</dimen>
+    <dimen name="margin_xlarge_n">-32dp</dimen>
+
+    <dimen name="text_smaller">10sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_regular">14sp</dimen>
+    <dimen name="text_regular_2x">16sp</dimen>
+    <dimen name="text_regular_3x">20sp</dimen>
+    <dimen name="text_heading_1x">24sp</dimen>
+    <dimen name="text_heading_2x">32sp</dimen>
+    <dimen name="text_big">40sp</dimen>
+    <dimen name="text_big_2x">60sp</dimen>
+    <dimen name="text_big_3x">80sp</dimen>
+</resources>

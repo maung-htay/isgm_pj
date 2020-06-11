@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.isgm.camreport.activity.CircuitAreaAndRouteActivity">
+    <item
+        android:id="@+id/setting"
+        android:title="@string/preference"
+        android:icon="@drawable/ic_settings_black_24dp"/>
+    <item
+        android:id="@+id/check_server"
+        android:title="@string/checkServer" />
+    <item
+        android:id="@+id/recent"
+        android:title="@string/recentHistory" />
+    <item
+        android:id="@+id/about"
+        android:title="@string/about"
+        android:icon="@drawable/ic_info_black_24dp"/>
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout" />
+</menu>

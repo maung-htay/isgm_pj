@@ -1,0 +1,10 @@
+<resources>
+    <string-array name="themeEntries">
+        <item>Dark</item>
+        <item>Default</item>
+    </string-array>
+    <string-array name="themeValues">
+        <item>dark</item>
+        <item>default</item>
+    </string-array>
+</resources>

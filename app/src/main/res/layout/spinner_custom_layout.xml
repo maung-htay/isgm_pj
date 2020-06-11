@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:id = "@+id/textInSpinner"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingTop="@dimen/eight"
+    android:paddingBottom="@dimen/eight"
+    android:paddingStart="@dimen/five"
+    android:paddingEnd="@dimen/five"
+    android:textStyle="bold"
+    android:textColor="@color/black"
+    android:layout_height="wrap_content" />

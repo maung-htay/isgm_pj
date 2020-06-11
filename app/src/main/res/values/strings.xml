@@ -1,0 +1,185 @@
+<resources>
+    <string name="about">About</string>
+    <string name="app_name">CamReport</string>
+    <string name="area">Area:</string>
+    <string name="b2b">B2B</string>
+    <string name="b2bPremium">B2B Premium</string>
+    <string name="checkServer">Check Server</string>
+    <string name="chooseDate">Choose Date</string>
+    <string name="circuit">Circuit:</string>
+    <string name="code">Code</string>
+    <string name="email">Email</string>
+    <string name="fttx">FTTX</string>
+    <string name="isgm">iSGM</string>
+    <string name="logout">Log Out</string>
+    <string name="mobi">MOBI</string>
+    <string name="next">Next</string>
+    <string name="noData">No Data</string>
+    <string name="pac">PAC</string>
+    <string name="password">Password</string>
+    <string name="please">Please Choose</string>
+    <string name="preference">Preference</string>
+    <string name="preview">Your Preview photo will appear here.</string>
+    <string name="recentHistory">Recent History</string>
+    <string name="remark">Remark</string>
+    <string name="reSearch">Reset</string>
+    <string name="resetPassword">Reset Password</string>
+    <string name="route">Route: </string>
+    <string name="searchRoute">Search Routes</string>
+    <string name="sendMessages">Send Messages</string>
+    <string name="server">Server</string>
+    <string name="setting">Settings</string>
+    <string name="signIn">Sign In</string>
+    <string name="signOut">Sign Out</string>
+    <string name="subType1">Sub Type 1: </string>
+    <string name="subType2">Sub Type 2: </string>
+    <string name="survey">Survey</string>
+    <string name="total">Total Sent Photos:</string>
+    <string name="type">Type: </string>
+    <string name="verify">Verify</string>
+    <string name="gallery">gallery</string>
+    <string name="no_data">No Data to show</string>
+    <string name="image">Image</string>
+    <string name="compress_size">Max compress size</string>
+    <string name="submit">Submit</string>
+    <string-array name="type">
+        <item>PL (Pole)</item>
+        <item>CL (Cable Laying)</item>
+        <item>SPLICE (Splicing)</item>
+        <item>Wr_Pipe (Warning Pipe)</item>
+        <item>FAT (2nd Splitter Open/Closed)</item>
+        <item>1st_SP (1st Splitter)</item>
+        <item>M/C (Mechanical Closure)</item>
+        <item>Fusion (Fusion Point)</item>
+        <item>JC (Joint Closure)</item>
+        <item>MC/12C Pole Mout ODB Open/Closed</item>
+        <item>MH (ManHole)</item>
+        <item>HH (HandHole)</item>
+        <item>Exchange ODB Open/Closed</item>
+        <item>Exchange ODF Open/Closed</item>
+        <item>Customer ODB Open/Closed</item>
+        <item>Customer ODF Open/Closed</item>
+        <item>E2E (E2E Testing Photo)</item>
+        <item>B2B_Test (Ping/Speed Testing Photo)</item>
+        <item>Activation (Activation Photo)</item>
+        <item>UG (UG Trenching)</item>
+        <item>Wall</item>
+    </string-array>
+    <string-array name="b2BSurvey">
+        <item>P (Pole Photo)</item>
+        <item>EX (Exchange Photo)</item>
+        <item>CU (Customer Photo)</item>
+        <item>MC (MC Photo)</item>
+        <item>HD (Hand Drawing)</item>
+        <item>Letter</item>
+    </string-array>
+    <string-array name="b2BPac">
+        <item>Laying (Cable Laying Photo)</item>
+        <item>MC (Splicing/ Label Photo)</item>
+        <item>CU (Customer Splicing/ Label Photo)</item>
+        <item>EX (Label/ Splicing)</item>
+        <item>P/S (Ping And Speed Test)</item>
+        <item>OPM (Optical Power Meter)</item>
+        <item>Letter", "Redline (Pole Photo)</item>
+        <item>RD (Redline Drawing)</item>
+    </string-array>
+    <string-array name="mobiSurvey">
+        <item>P (Pole Photo)</item>
+        <item>Letter (Letter File)</item>
+        <item>SiteA</item>
+        <item>SiteB</item>
+        <item>HD (Hand Drawing Layout)</item>
+    </string-array>
+    <string-array name="mobiPac">
+        <item>SiteA (Splicing/ Label Photo)</item>
+        <item>Laying (Cable Laying)</item>
+        <item>SiteB (Photo/Layout)</item>
+        <item>OPM (Optical Power Meter)</item>
+        <item>P/S (Ping And Speed Test)</item>
+        <item>Letter File</item>
+        <item>RD (Redline Drawing)</item>
+    </string-array>
+    <string-array name="b2BPremiumSurvey">
+        <item>P (Pole Photo)</item>
+        <item>SubTrunk ODB (Photo)</item>
+        <item>CU (Customer Photo)</item>
+        <item>Letter File", "HD (HandDrawing)</item>
+    </string-array>
+    <string-array name="b2BPremiumPac">
+        <item>SubTrunk ODB (Photo)</item>
+        <item>1st Spliter (Splicing /Label)</item>
+        <item>2nd Spliter (Splicing /Label)</item>
+        <item>Customer (Splicing /label)</item>
+        <item>OPM (Optical Power Meter)</item>
+        <item>Laying (Cable Laying)</item>
+        <item>P/S (Ping And Speed Test)</item>
+        <item>Letter</item>
+        <item>RD (Redline Drawing)</item>
+    </string-array>
+    <string-array name="subType1">
+        <item>EP (Existing Pole)</item>
+        <item>NP (New Pole)</item>
+        <item>RP (Replacement Pole)</item>
+        <item>RB (Pole Restanding)</item>
+        <item>GIP (GI Pole)</item>
+    </string-array>
+    <string-array name="subType2">
+        <item>PHole (Pole Hole Photo with Board)</item>
+        <item>BF (Basement Footing)</item>
+        <item>AllView (Pole General View with Footing)</item>
+    </string-array>
+    <string-array name="subType1List1">
+        <item>EP (Existing Pole)</item>
+        <item>NP (New Pole)</item>
+        <item>RP (Replacement Pole)</item>
+        <item>RB (Pole Restanding)</item>
+        <item>GIP (GI Pole)</item>
+    </string-array>
+    <string-array name="subType1List2">
+        <item>EMH (Existing Manhole)</item>
+        <item>NMH (New Manhole)</item>
+        <item>RBMH (Rebuild Manhole)</item>
+    </string-array>
+    <string-array name="subType1List3">
+        <item>NHH (New Handhole)</item>
+        <item>EHH (Existing Handhole)</item>
+    </string-array>
+    <string-array name="subType1List4">
+        <item>Drum (Drum Photo)</item>
+        <item>DrumJet (Drum Jet Photo)</item>
+        <item>Cablying (Cable Laying Photo with Safety)</item>
+    </string-array>
+    <string-array name="subType1List5">
+        <item>Splicer (Splicer Photo)</item>
+        <item>MC JC(M/C Joint Closure)</item>
+        <item>MC 12c Box(M/C 12c Box)</item>
+        <item>Exchange_ODB</item>
+        <item>JC</item>
+        <item>1st_SP</item>
+        <item>2nd_SP</item>
+        <item>Fusion</item>
+        <item>Customer_ODB</item>
+    </string-array>
+    <string-array name="subType1List6">
+        <item>Closed (Cover Photo)</item>
+        <item>Open (Cover Photo)</item>
+    </string-array>
+    <string-array name="subType1List7">
+        <item>Closed_L (Closed Cover Label)</item>>
+        <item>Open_L (Open Cover Label)</item>
+    </string-array>
+    <string-array name="subType1List8">
+        <item>Excav (Excavation Photo)</item>
+        <item>Trenching (Trenching with Depth Board)</item>
+        <item>BackF (Backfilling with warning tape)</item>
+    </string-array>
+    <string-array name="subType2List1">
+        <item>PHole (Pole Hole Photo with Board)</item>
+        <item>BF (Basement Footing)</item>
+        <item>AllView (Pole General View with Footing)</item>
+    </string-array>
+    <string-array name="subType2List2">
+        <item>Before (Before Photo)</item>
+        <item>After_Footing (After Photo with Footing)</item>
+    </string-array>
+</resources>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:id="@+id/scrollView">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="start"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5sp"
+            android:gravity="center"
+            android:iconifiedByDefault="false"
+            android:imeOptions="actionDone"
+            android:queryHint="@string/searchRoute"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/indicator" />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="0dp"
+            android:layout_height="200sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/five"
+            android:divider="@color/fui_transparent"
+            android:listSelector="@color/listSelector"
+            android:nestedScrollingEnabled="true"
+            app:layout_constraintEnd_toEndOf="@+id/indicator"
+            app:layout_constraintStart_toStartOf="@+id/indicator"
+            app:layout_constraintTop_toBottomOf="@id/searchView"
+            tools:ignore="NestedScrolling" />
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ten"
+            android:columnCount="2"
+            app:layout_constraintEnd_toEndOf="@+id/listView"
+            app:layout_constraintStart_toStartOf="@+id/listView"
+            app:layout_constraintTop_toBottomOf="@id/listView">
+
+            <TextView
+                android:id="@+id/circuit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/ten"
+                android:layout_marginEnd="@dimen/ten"
+                android:text="@string/circuit"
+                android:textSize="@dimen/text_regular_2x"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/circuitTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/five"
+                android:layout_marginEnd="@dimen/ten"
+                android:paddingStart="@dimen/thirty"
+                android:paddingEnd="@dimen/thirty"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/ten"
+                android:layout_marginTop="@dimen/twenty"
+                android:layout_marginEnd="@dimen/ten"
+                android:text="@string/area"
+                android:textSize="@dimen/text_regular_2x"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/areaTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/five"
+                android:layout_marginTop="@dimen/twenty"
+                android:layout_marginEnd="@dimen/ten"
+                android:paddingStart="@dimen/thirty"
+                android:paddingEnd="@dimen/thirty"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/route"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/ten"
+                android:layout_marginTop="@dimen/twenty"
+                android:layout_marginEnd="@dimen/ten"
+                android:text="@string/route"
+                android:textSize="@dimen/text_regular_2x"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/routeTextView"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/five"
+                android:layout_marginTop="@dimen/twenty"
+                android:layout_marginEnd="@dimen/ten"
+                android:paddingStart="@dimen/thirty"
+                android:paddingEnd="@dimen/thirty"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/ten"
+                android:layout_marginTop="@dimen/twenty"
+                android:layout_marginEnd="@dimen/ten"
+                android:text="@string/type"
+                android:textSize="@dimen/text_regular_2x"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/typeSpinner"
+                android:layout_width="250dp"
+                android:layout_marginStart="@dimen/thirty"
+                android:layout_marginTop="@dimen/twenty"
+                android:paddingStart="@dimen/thirty"
+                android:gravity="start"
+                android:textAlignment="textStart"
+                android:paddingEnd="@dimen/thirty"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/subType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/ten"
+                android:layout_marginTop="@dimen/twenty"
+                android:layout_marginEnd="@dimen/ten"
+                android:text="@string/subType1"
+                android:textSize="@dimen/text_regular_2x"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/subType1Spinner"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/thirty"
+                android:layout_marginTop="@dimen/twenty"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/subType2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/ten"
+                android:layout_marginTop="@dimen/twenty"
+                android:layout_marginEnd="@dimen/ten"
+                android:text="@string/subType2"
+                android:textSize="@dimen/text_regular_2x"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/subtype2Spinner"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/thirty"
+                android:layout_marginTop="@dimen/twenty"
+                android:textStyle="bold" />
+        </GridLayout>
+
+        <EditText
+            android:id="@+id/code"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/code"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="4"
+            android:textSize="@dimen/twenty1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/gridLayout"
+            app:layout_constraintTop_toBottomOf="@id/gridLayout"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/remark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:gravity="start"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:hint="@string/remark"
+            android:importantForAutofill="no"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:textSize="@dimen/twenty1"
+            app:layout_constraintEnd_toEndOf="@+id/gridLayout"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/gridLayout"
+            app:layout_constraintTop_toBottomOf="@id/code" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ten"
+            android:layout_marginBottom="@dimen/ten"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/remark">
+            <Button
+                android:id="@+id/reSearch"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_round_border"
+                android:text="@string/reSearch"
+                android:textColor="@color/white"
+                style="?android:attr/buttonBarButtonStyle" />
+            <Button
+                android:id="@+id/next"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/twenty"
+                android:background="@drawable/button_round_border"
+                android:text="@string/next"
+                android:textColor="@color/white"
+                style="?android:attr/buttonBarButtonStyle" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

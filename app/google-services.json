@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "471890569908",
+    "firebase_url": "https://icamreport.firebaseio.com",
+    "project_id": "icamreport",
+    "storage_bucket": "icamreport.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471890569908:android:fe13b29539b0281faac5e1",
+        "android_client_info": {
+          "package_name": "com.isgm.camreport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471890569908-qca8bhg1vqv0700dl1om3aqoih66vhvs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.isgm.camreport",
+            "certificate_hash": "ed8d0fc90d95adf03c089aab90c9597a8debea6e"
+          }
+        },
+        {
+          "client_id": "471890569908-mj2c3o0e2gj4l6qviqrpmfcdcq03qm2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAix6LOKNgZxEtEm9D_GFOLa08bwi7WZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471890569908-mj2c3o0e2gj4l6qviqrpmfcdcq03qm2v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
